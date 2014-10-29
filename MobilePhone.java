@@ -3,15 +3,14 @@ public class MobilePhone extends OldPhone {
     /* private NumberQueue lastNumber; */
     private String[] lastNumbers;
     
-    private int position = 0;
-    
-    public MobilePhone() {
-        super();
+    public MobilePhone(String brand) {
+        super(brand);
         
         lastNumbers = new String[9];
         
         /* lastNumber = new NumberQueue(); */
     }
+   
     
     public void call(String number) {
         super.call(number);
