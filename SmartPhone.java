@@ -12,7 +12,10 @@ public class SmartPhone extends MobilePhone {
             super.call(number);
         }
     }
-        
+    
+    public void playGame(String game) {
+        System.out.println("You are playing " + game);
+    }
     
     public void browseWeb(String website) {
         System.out.println("Going to website " + website);

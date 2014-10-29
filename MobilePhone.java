@@ -38,7 +38,11 @@ public class MobilePhone extends OldPhone {
         System.out.println(alarm + " has gone off.");
     }
     
-    public void playGame(String game) {
+    public void printGame(String game) {
+        this.playGame(game);
+    }
+    
+    private void playGame(String game) {
         System.out.println("You are playing " + game);
     }
 

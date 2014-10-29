@@ -8,7 +8,7 @@ public class PhoneLauncher {
         
         /* MobilePhone userPhone = new MobilePhone(); */
         
-        SmartPhone userPhone = new SmartPhone();
+        SmartPhone userPhone = new SmartPhone("Nokia");
         
         userPhone.call("123");
         userPhone.call("1234");
@@ -30,6 +30,9 @@ public class PhoneLauncher {
         userPhone.browseWeb("www.birkbeck.ac.uk");
         
         System.out.println(userPhone.findPosition());
+        
+        userPhone.playGame("Pokemon");
+        userPhone.printGame("Pokemon 2");
         
     }
 }
