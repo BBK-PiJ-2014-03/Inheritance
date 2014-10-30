@@ -13,8 +13,14 @@ public class SmartPhone extends MobilePhone {
         }
     }
     
+    /*
+    *
+    *   Overrides the playGame() method, increasing its visibility
+    *   calls the printGame() method from the SmartPhone super class, MobilePhone
+    *
+    */
     public void playGame(String game) {
-        System.out.println("You are playing " + game);
+        super.printGame(game);
     }
     
     public void browseWeb(String website) {

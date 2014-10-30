@@ -38,6 +38,12 @@ public class MobilePhone extends OldPhone {
         System.out.println(alarm + " has gone off.");
     }
     
+    
+    /**
+    *
+    *   Uses reflection to access the private playGame() method
+    *
+    */
     public void printGame(String game) {
         this.playGame(game);
     }
